@@ -1,0 +1,118 @@
+body {
+    background: #7d2ae8;
+    font-family: Poppins, sans-serif;
+}
+
+main {
+    margin: 50px;
+}
+
+form {
+    width: 48%;
+    height: 460px;
+    background: white;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+form p {
+    display: inline;
+}
+
+label {
+    margin: 10px;
+    font-size: 1.5em;
+}
+
+.input-padrao {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 25px;
+    width: 80%;
+    border-style: solid;
+    border-top: white;
+    border-right: white;
+    border-left: white;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    font-size: 16px;
+}
+
+.input-padrao:focus {
+    border-color: #7d2ae8;
+}
+
+.enviar {
+    width: 90%;
+    padding: 15px 0;
+    background: #7d2ae8;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    margin: 20px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.enviar:hover {
+    background: #5b13b9;
+}
+
+.register {
+    display: block
+}
+
+a {
+    color: #7d2ae8;
+    text-decoration: none;
+}
+
+.signup {
+    margin-top: 25px;
+    text-align: center;
+}
+
+img {
+    width: 48%;
+    opacity: 50%;
+    height: 500px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+.caixa {
+    position: relative; left: 800px; bottom: 350px;
+    width: 320px;
+    text-align: center;
+    color: white;
+}
+
+.caixa2 {
+    position: relative; bottom: 300px; left: 120px;
+    width: 320px;
+    text-align: center;
+    color: white;
+}
+
+.fa-envelope {
+    color: #7d2ae8;
+}
+
+.fa-lock {
+    color: #7d2ae8;
+}
+
+.fa-user {
+    color: #7d2ae8;
+}
